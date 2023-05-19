@@ -13,13 +13,13 @@ int main(void)
 	if(n>0)
 	{
 		/*if condition is true then prints the following*/
-		printf("%d is positive\n",n)
+		printf("%d is positive\n",n);
 	}else if(n==0){
 		/*else if condition is true*/
-		printf("%d is zero\n",n)
+		printf("%d is zero\n",n);
 	}else{
 		/*if none of the condition is true print the following*/
-		printf("%d is negative\n",n)
+		printf("%d is negative\n",n);
 	}
 	printf("Exact value of n is:%d\n",n);
 	
