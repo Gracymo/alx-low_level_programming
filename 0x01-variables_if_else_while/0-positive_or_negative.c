@@ -33,4 +33,5 @@ int main(void)
 	printf("Exact value of n is:%d\n", n);
 	
 	return (0);
+}
 
