@@ -5,10 +5,7 @@
 
 /**
  * main - Entry point
- * 
- * Description: 'negative or negative'
- * 
- * 
+ * Description: 'positive or negative'
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -16,12 +13,12 @@ int main(void)
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(n>0)
+	if(n > 0)
 	{
 		/*if condition is true then prints the following*/
 		printf("%d is positive\n", n);
 	}
-	else if(n==0)
+	else if(n == 0)
 	{
 		/*else if condition is true*/
 		printf("%d is zero\n", n);
