@@ -1,12 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * * main - Entry point
+ * main - _putchar
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int _putchar(int p)
+int main(void)
 {
-_putchar(p);	
+print_alphabet();
 return (0);
 }    
